@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <style>
+        .box {
+            height: 200px;
+            width: 200px;
+            margin: 10px;
+            border: 2px solid blue;
+        }
+
+        .container {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="padding-top: 40px;">Question #01</h1>
+    <h1 style="color: rgb(34, 139, 173)">Mobile Phone Lookup</h1>
+    <div class="container">
+        <div onclick="myfunction()" class="box">
+            <img height="200px" src="./Assets/4.webp" alt="" srcset="">
+            <p>samsung galaxy</p>
+        </div>
+        <div onclick="myfunction()" class="box">
+            <img height="200px" src="./Assets/1.jpg" alt="loading">
+            <p>samsung a32</p>
+        </div>
+        <div onclick="myfunction()" class="box">
+            <img height="200px" src="./Assets/2.jpg" alt="loading">
+            <p>iphone x</p>
+        </div>
+        <div onclick="myfunction(23)" class="box">
+            <img height="200px" src="./Assets/3.jpg" alt="" srcset="">
+            <p>samsung galaxy</p>
+        </div>
+
+    </div>
+
+<div style="margin-top: 100px;">
+    <h1 >Question #02</h1>
+    <table id="myTable">
+        <tr>
+
+          <td>0</td>
+          <td>john</td>
+          <td>10</td>
+          <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Mark</td>
+          <td>15</td>
+          <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Ten</td>
+          <td>20</td>
+          <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+        </tr>
+      </table>
+</div>
+
+      
+
+
+    <!-- //Q4 -->
+    <h1 style="padding-top: 40px;">Question #04</h1>
+    <div class="container">
+        <div class="box">
+            <img id="bulbimage" onmouseover="changeImage()" onmouseout="changeImage2()" height="200px" src="./Assets/bulboff.jpg" alt="" srcset="">
+        </div>
+    </div>
+
+    </div>
+
+
+
+   <!-- //Q5  -->
+<div>
+    <h1>Question #05</h1>
+    <p>Clicks: <a id="clicks">0</a></p>
+    <button onclick="onClick()">increase</button>
+    <button onclick="onClick2()">decrease</button>
+</div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
